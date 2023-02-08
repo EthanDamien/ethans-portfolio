@@ -1,0 +1,19 @@
+.Splash {
+    text-align: center;
+}
+
+.splashSection {
+    background-color: white;
+    opacity: 50%;
+}
+.EthanLogo {
+    height: auto;
+    width: 50%;
+}
+
+@media (max-width: 480px) {
+    .EthanLogo{
+        height: auto;
+        width: 250px;
+    }
+}

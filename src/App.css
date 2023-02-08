@@ -13,15 +13,19 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.sectionFrame {
+  background-color: rgb(209, 227, 200);
   min-height: 100vh;
+  min-width: 100%;
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: 2;
+  scroll-snap-align: center;
 }
 
 .App-link {
@@ -34,5 +38,75 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: black;
+  bottom: 1%;
+  z-index: 1000;
+}
+
+h2 {
+  margin: 0;
+  color: black;
+  left: calc(50% + 130px);
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -3px;
+  line-height: 1.2;
+  position: absolute;
+  z-index: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .backgroundVideo{
+    overflow: hidden;
+    position:fixed;
+    
+    z-index: -1;
+    height: auto;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .backgroundVideo{
+    overflow: hidden;
+    position:fixed;
+    right:;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -1;
+    height: 100%;
+    align-items: center;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .backgroundVideo{
+    overflow: hidden;
+    position:fixed;
+    right: -110vw;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -1;
+    height: 100%;
+    align-items: center;
+    width: auto;
   }
 }
