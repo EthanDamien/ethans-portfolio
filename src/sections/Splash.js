@@ -1,4 +1,4 @@
-import logo from '../EthanDamienLogo.png';
+import logo from '../EmptyEthanLogo.png';
 import '../App.css';
 import './Splash.css'
 
@@ -6,7 +6,7 @@ const Splash = () => {
     return (
         <div className="Splash">
       <header className="sectionFrame splashSection">
-        <img src={logo} className="EthanLogo" alt="logo" />
+        <img src={logo} className="EthanLogo gradientLogo" alt="logo" />
       </header>
     </div>
     )

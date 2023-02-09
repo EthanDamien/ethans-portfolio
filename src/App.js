@@ -9,6 +9,7 @@ import {
   useSpring,
   useTransform,
 } from "framer-motion";
+import Experience from './sections/Experience';
 
 function useParallax(value, distance) {
   return useTransform(value, [0, 1], [-distance, distance]);
@@ -23,6 +24,11 @@ function Section({ id })  {
   else if (id == 2){
     return (
       <Bio/>
+    )
+  }
+  else if (id == 3){
+    return(
+      <Experience/>
     )
   }
 } 

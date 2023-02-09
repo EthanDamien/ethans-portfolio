@@ -17,3 +17,20 @@
         width: 250px;
     }
 }
+
+
+.gradientLogo {
+    --bg-size: 400%;
+    --color-one: hsl(0, 0%, 0%);
+    --color-two: hsl(0, 0%, 46%);
+    background: linear-gradient(
+                  90deg,
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    animation: move-bg 8s infinite linear;
+    mask-image: url(../EthanDamienLogo.png);
+    -webkit-mask-image: url(../EthanDamienLogo.png);
+    mask-size:contain
+  }
