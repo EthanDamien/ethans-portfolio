@@ -129,11 +129,16 @@ p {
         border-radius: 0px 0px 0px 0px;
     }
 
+    .pfp{
+        height: 150px;
+        width: auto;
+    }
     h1{
         width: 300px;
         margin: 0px auto 0px auto;
     }
     p{
+        font-size: 15px;
         width: 300px;
         word-wrap: normal;
     }
@@ -157,11 +162,16 @@ p {
         border-radius: 0px 0px 0px 0px;
     }
 
+    .pfp{
+        height: 150px;
+        width: auto;
+    }
     h1{
         width: 300px;
         margin: 0px auto 0px auto;
     }
     p{
+        font-size: 15px;
         width: 300px;
         word-wrap: normal;
     }
