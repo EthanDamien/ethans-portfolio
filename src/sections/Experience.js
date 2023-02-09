@@ -29,7 +29,7 @@ function expCard(type) {
     </div>
     <div className='expCardContent'>
         <h1>Software Engineer Intern</h1>
-        <p className='gradientOrange'>Jun 22' - Aug 22'</p>
+        <p className='gradientOrangeStatic'>Jun 22' - Aug 22'</p>
         <p>Control Plane Distributed Systems Engineer. </p>
         <p>Created a proprietary service to promptly propagate 
           data to >20k hosts globally while mitigating 
@@ -47,7 +47,7 @@ function expCard(type) {
     </div>
     <div className='expCardContent'>
         <h1>Software Engineer Intern</h1>
-        <p className='gradientGreen'>Jun 22' - Aug 22'</p>
+        <p className='gradientGreenStatic'>Jun 22' - Aug 22'</p>
         <p>Proprietary Full-Stack Engineer. </p>
         <p>Led the creation of multiple full-stack applications with 6 interns. 
           Exceeded customer expectations with efficient UX and Backend design.
@@ -64,7 +64,7 @@ function expCard(type) {
     </div>
     <div className='expCardContent'>
         <h1>Software Engineer 1</h1>
-        <p className='gradientBlue'>Starting Aug 23'</p>
+        <p className='gradientBlueStatic'>Starting Aug 23'</p>
         <p>Fulltime Software Engineer</p>
         <p>
           Check back in August!

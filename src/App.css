@@ -124,9 +124,23 @@ h2 {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  animation: move-bg 8s infinite linear;
+  animation: move-bg 12s infinite linear;
 }
 
+.gradientOrangeStatic {
+  --bg-size: 400%;
+  --color-one: hsl(15 90% 55%);
+  --color-two: hsl(40 95% 55%);
+  background: linear-gradient(
+                90deg,
+                var(--color-one),
+                var(--color-two),
+                var(--color-one)
+              ) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
 
 .gradientGreen {
@@ -142,7 +156,22 @@ h2 {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  animation: move-bg 8s infinite linear;
+  animation: move-bg 12s infinite linear;
+}
+
+.gradientGreenStatic {
+  --bg-size: 400%;
+  --color-one: hsl(119, 47%, 49%);
+  --color-two: hsl(100, 66%, 61%);
+  background: linear-gradient(
+                90deg,
+                var(--color-one),
+                var(--color-two),
+                var(--color-one)
+              ) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .gradientBlue {
@@ -158,7 +187,22 @@ h2 {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  animation: move-bg 8s infinite linear;
+  animation: move-bg 12s infinite linear;
+}
+
+.gradientBlueStatic {
+  --bg-size: 400%;
+  --color-one: hsl(194, 100%, 69%);
+  --color-two: hsl(187, 48%, 54%);
+  background: linear-gradient(
+                90deg,
+                var(--color-one),
+                var(--color-two),
+                var(--color-one)
+              ) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 @keyframes move-bg {
