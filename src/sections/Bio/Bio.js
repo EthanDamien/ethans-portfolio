@@ -1,4 +1,3 @@
-import '../App.css';
 import './Bio.css'
 import ReactTypingEffect from 'react-typing-effect'
 

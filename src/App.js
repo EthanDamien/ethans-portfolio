@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Splash from './sections/Splash';
-import Bio from './sections/Bio';
+import Splash from './sections/Splash/Splash';
+import Bio from './sections/Bio/Bio';
 import { useRef } from "react";
 import {
   motion,
   useScroll,
   useSpring,
 } from "framer-motion";
-import Experience from './sections/Experience';
-import SectionHeader from './SectionHeader';
+import Experience from './sections/Experience/Experience';
 
 
 function Section({ id })  {

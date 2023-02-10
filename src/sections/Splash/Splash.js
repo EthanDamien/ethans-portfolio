@@ -1,5 +1,5 @@
-import logo from '../EmptyEthanLogo.png';
-import '../App.css';
+import logo from './EmptyEthanLogo.png';
+
 import './Splash.css'
 
 const Splash = () => {

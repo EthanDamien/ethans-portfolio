@@ -1,10 +1,9 @@
-import '../App.css';
 import './Experience.css'
 import ReactTypingEffect from 'react-typing-effect'
 import { motion } from "framer-motion";
-import awslogo from "../AWSlogoEmpty.png";
-import fidelitylogo from "../EmptyFidelityLogo.png";
-import adslogo from "../AmazonAdsEmpty.png";
+import awslogo from ".//assets/AWSlogoEmpty.png";
+import fidelitylogo from ".//assets/EmptyFidelityLogo.png";
+import adslogo from ".//assets/AmazonAdsEmpty.png";
 
 const Experience = () => {
     return (
@@ -35,7 +34,7 @@ function expCard(type) {
         <p className='gradientOrangeStatic'>Jun 22' - Aug 22'</p>
         <p>Control Plane Distributed Systems Engineer. </p>
         <p>Created a proprietary service to promptly propagate 
-          data to >20k hosts globally while mitigating 
+          data to &gt;20k hosts globally while mitigating 
           negative customer impact.
         </p>
     </div>

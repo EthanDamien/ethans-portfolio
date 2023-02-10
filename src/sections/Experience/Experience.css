@@ -64,14 +64,13 @@
     position: relative;
     align-content: center;
     gap: 60px;
-    border-radius: 0px 0px 0px 0px;
     background-color: white;
     box-shadow: 
     0px 0.796841278193901px 2.3905238345817033px -0.625px rgba(0, 0, 0, 0.05), 
     0px 2.413677098392273px 7.2410312951768185px -1.25px rgba(0, 0, 0, 0.05), 
     0px 6.3802836426702925px 19.140850928010877px -1.875px rgba(0, 0, 0, 0.05), 
     0px 20px 60px -2.5px rgba(0, 0, 0, 0.05);  
-    border-radius: 70px;
+    border-radius: 50px;
 }
 
 .expCardContent{
@@ -115,8 +114,8 @@
                     var(--color-one)
                 ) 0 0 / var(--bg-size) 100%;
     animation: move-bg 8s infinite linear;
-    mask-image: url(../AWSlogo.png);
-    -webkit-mask-image: url(../AWSlogo.png);
+    mask-image: url(.//assets/AWSlogo.png);
+    -webkit-mask-image: url(.//assets/AWSlogo.png);
     mask-size:contain
 }
 
@@ -133,8 +132,8 @@
                     var(--color-one)
                 ) 0 0 / var(--bg-size) 100%;
     animation: move-bg 8s infinite linear;
-    mask-image: url(../FidelityLogo.png);
-    -webkit-mask-image: url(../FidelityLogo.png);
+    mask-image: url(.//assets/FidelityLogo.png);
+    -webkit-mask-image: url(.//assets/FidelityLogo.png);
     mask-size:contain;
     mask-repeat: no-repeat;
 }
@@ -152,8 +151,8 @@
                     var(--color-one)
                 ) 0 0 / var(--bg-size) 100%;
     animation: move-bg 8s infinite linear;
-    mask-image: url(../AmazonAds.png);
-    -webkit-mask-image: url(../AmazonAds.png);
+    mask-image: url(.//assets/AmazonAds.png);
+    -webkit-mask-image: url(.//assets/AmazonAds.png);
     mask-size:contain;
     mask-repeat: no-repeat;
 }
@@ -242,8 +241,8 @@
                         var(--color-one)
                     ) 0 0 / var(--bg-size) 100%;
         animation: move-bg 8s infinite linear;
-        mask-image: url(../AWSlogo.png);
-        -webkit-mask-image: url(../AWSlogo.png);
+        mask-image: url(.//assets/AWSlogo.png);
+        -webkit-mask-image: url(.//assets/AWSlogo.png);
         mask-size:contain
     }
     
@@ -260,8 +259,8 @@
                         var(--color-one)
                     ) 0 0 / var(--bg-size) 100%;
         animation: move-bg 8s infinite linear;
-        mask-image: url(../FidelityLogo.png);
-        -webkit-mask-image: url(../FidelityLogo.png);
+        mask-image: url(.//assets/FidelityLogo.png);
+        -webkit-mask-image: url(.//assets/FidelityLogo.png);
         mask-size:contain;
         mask-repeat: no-repeat;
     }
@@ -279,8 +278,8 @@
                         var(--color-one)
                     ) 0 0 / var(--bg-size) 100%;
         animation: move-bg 8s infinite linear;
-        mask-image: url(../AmazonAds.png);
-        -webkit-mask-image: url(../AmazonAds.png);
+        mask-image: url(.//assets/AmazonAds.png);
+        -webkit-mask-image: url(.//assets/AmazonAds.png);
         mask-size:contain;
         mask-repeat: no-repeat;
     }
