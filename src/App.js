@@ -2,34 +2,27 @@ import logo from './logo.svg';
 import './App.css';
 import Splash from './sections/Splash/Splash';
 import Bio from './sections/Bio/Bio';
+import Experience from './sections/Experience/Experience';
+import Projects from './sections/Projects/Projects'
 import { useRef } from "react";
 import {
   motion,
   useScroll,
   useSpring,
 } from "framer-motion";
-import Experience from './sections/Experience/Experience';
+
 
 
 function Section({ id })  {
-  if (id == 1){
-    return (
-      <Splash />
-    )
-  }
-  else if (id == 2){
-    return (
-      <>
-      <Bio/>
-      </>
-    )
-  }
-  else if (id == 3){
-    return(
-      <>
-      <Experience/>
-      </>
-    )
+  switch(id){
+    case 1: 
+      return <Splash />
+    case 2:
+      return <Bio/>
+    case 3:
+      return <Experience/>   
+    case 4:
+      return <Projects/>  
   }
 } 
 
@@ -51,7 +44,7 @@ function App() {
     <video autoPlay loop muted playsInline className='backgroundVideo'>
       <source src='https://ethanportfolioassets.s3.amazonaws.com/CarBackground.mp4'></source>
     </video>
-      {[1,2,3,3,5].map((section) =>
+      {[1,2,3,4,5].map((section) =>
         (
         <Section id = {section}/>
       ))}
