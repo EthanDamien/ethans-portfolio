@@ -103,60 +103,6 @@
     width: auto;
 }
 
-.gradientAWS {
-    --bg-size: 400%;
-    --color-one: hsl(15 90% 55%);
-    --color-two: hsl(40 95% 55%);
-    background: linear-gradient(
-                    90deg,
-                    var(--color-one),
-                    var(--color-two),
-                    var(--color-one)
-                ) 0 0 / var(--bg-size) 100%;
-    animation: move-bg 8s infinite linear;
-    mask-image: url(.//assets/AWSlogo.png);
-    -webkit-mask-image: url(.//assets/AWSlogo.png);
-    mask-size:contain
-}
-
-.gradientFidelity {
-    height: auto;
-    width: 200px;
-    --bg-size: 400%;
-    --color-one: hsl(119, 47%, 49%);
-    --color-two: hsl(100, 66%, 61%);
-    background: linear-gradient(
-                    90deg,
-                    var(--color-one),
-                    var(--color-two),
-                    var(--color-one)
-                ) 0 0 / var(--bg-size) 100%;
-    animation: move-bg 8s infinite linear;
-    mask-image: url(.//assets/FidelityLogo.png);
-    -webkit-mask-image: url(.//assets/FidelityLogo.png);
-    mask-size:contain;
-    mask-repeat: no-repeat;
-}
-
-.gradientAds {
-    height: auto;
-    width: 200px;
-    --bg-size: 400%;
-    --color-one: hsl(194, 100%, 69%);
-    --color-two: hsl(187, 48%, 54%);
-    background: linear-gradient(
-                    90deg,
-                    var(--color-one),
-                    var(--color-two),
-                    var(--color-one)
-                ) 0 0 / var(--bg-size) 100%;
-    animation: move-bg 8s infinite linear;
-    mask-image: url(.//assets/AmazonAds.png);
-    -webkit-mask-image: url(.//assets/AmazonAds.png);
-    mask-size:contain;
-    mask-repeat: no-repeat;
-}
-
 @media (max-width: 480px) {
     .ProjectCard{
         flex-shrink: 0;
@@ -228,60 +174,6 @@
     .cardLogo{
         max-height: 80px;
         width: auto;
-    }
-
-    .gradientAWS {
-        --bg-size: 400%;
-        --color-one: hsl(15 90% 55%);
-        --color-two: hsl(40 95% 55%);
-        background: linear-gradient(
-                        90deg,
-                        var(--color-one),
-                        var(--color-two),
-                        var(--color-one)
-                    ) 0 0 / var(--bg-size) 100%;
-        animation: move-bg 8s infinite linear;
-        mask-image: url(.//assets/AWSlogo.png);
-        -webkit-mask-image: url(.//assets/AWSlogo.png);
-        mask-size:contain
-    }
-    
-    .gradientFidelity {
-        height: auto;
-        width: 250px;
-        --bg-size: 400%;
-        --color-one: hsl(119, 47%, 49%);
-        --color-two: hsl(100, 66%, 61%);
-        background: linear-gradient(
-                        90deg,
-                        var(--color-one),
-                        var(--color-two),
-                        var(--color-one)
-                    ) 0 0 / var(--bg-size) 100%;
-        animation: move-bg 8s infinite linear;
-        mask-image: url(.//assets/FidelityLogo.png);
-        -webkit-mask-image: url(.//assets/FidelityLogo.png);
-        mask-size:contain;
-        mask-repeat: no-repeat;
-    }
-    
-    .gradientAds {
-        height: auto;
-        width: 250px;
-        --bg-size: 400%;
-        --color-one: hsl(194, 100%, 69%);
-        --color-two: hsl(187, 48%, 54%);
-        background: linear-gradient(
-                        90deg,
-                        var(--color-one),
-                        var(--color-two),
-                        var(--color-one)
-                    ) 0 0 / var(--bg-size) 100%;
-        animation: move-bg 8s infinite linear;
-        mask-image: url(.//assets/AmazonAds.png);
-        -webkit-mask-image: url(.//assets/AmazonAds.png);
-        mask-size:contain;
-        mask-repeat: no-repeat;
     }
 }
 

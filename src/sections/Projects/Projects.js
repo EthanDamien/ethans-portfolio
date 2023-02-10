@@ -2,8 +2,6 @@ import './Projects.css'
 import ReactTypingEffect from 'react-typing-effect'
 import { motion } from "framer-motion";
 import omwlogo from ".//assets/omwlogo.png";
-import fidelitylogo from ".//assets/EmptyFidelityLogo.png";
-import adslogo from ".//assets/AmazonAdsEmpty.png";
 
 const Project = () => {
     return (
