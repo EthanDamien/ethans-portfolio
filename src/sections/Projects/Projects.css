@@ -1,0 +1,287 @@
+.ProjectSection{
+    background-color: white;
+    opacity: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content; /* 634px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px 100px 40px;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 60;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.carousel{
+    flex-shrink: 0;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    position: relative;
+    padding-left: 100px;
+    padding: 10px 30px 50px 30px;
+    align-content: center;
+    gap: 50px;
+    border-radius: 0px 0px 0px 0px;
+    overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: white;
+    -webkit-border-radius: 1ex;
+}
+  
+.carousel::-webkit-scrollbar-thumb {
+    background: black;
+    -webkit-border-radius: 1ex;
+}
+  
+.carousel::-webkit-scrollbar-corner {
+    background: #fff3;
+}
+
+.ProjectCard{
+    flex-shrink: 0;
+    width: 380px;
+    height: 380px; /* 320px */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    align-content: center;
+    gap: 60px;
+    background-color: white;
+    box-shadow: 
+    0px 0.796841278193901px 2.3905238345817033px -0.625px rgba(0, 0, 0, 0.05), 
+    0px 2.413677098392273px 7.2410312951768185px -1.25px rgba(0, 0, 0, 0.05), 
+    0px 6.3802836426702925px 19.140850928010877px -1.875px rgba(0, 0, 0, 0.05), 
+    0px 20px 60px -2.5px rgba(0, 0, 0, 0.05);  
+    border-radius: 50px;
+}
+
+.expCardContent{
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    gap: 0px;
+}
+.expCardContent h1{
+    font-size: large;
+    margin: 0px auto 0px auto;
+    width: 80%; 
+}
+
+.expCardContent p{
+    font-size: medium;
+    width: 80%; 
+    margin: 5px auto 0px auto; 
+}
+
+.imgContain  {
+    height: 10%;
+}
+
+.cardLogo{
+    height: 80px;
+    width: auto;
+}
+
+.gradientAWS {
+    --bg-size: 400%;
+    --color-one: hsl(15 90% 55%);
+    --color-two: hsl(40 95% 55%);
+    background: linear-gradient(
+                    90deg,
+                    var(--color-one),
+                    var(--color-two),
+                    var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    animation: move-bg 8s infinite linear;
+    mask-image: url(.//assets/AWSlogo.png);
+    -webkit-mask-image: url(.//assets/AWSlogo.png);
+    mask-size:contain
+}
+
+.gradientFidelity {
+    height: auto;
+    width: 200px;
+    --bg-size: 400%;
+    --color-one: hsl(119, 47%, 49%);
+    --color-two: hsl(100, 66%, 61%);
+    background: linear-gradient(
+                    90deg,
+                    var(--color-one),
+                    var(--color-two),
+                    var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    animation: move-bg 8s infinite linear;
+    mask-image: url(.//assets/FidelityLogo.png);
+    -webkit-mask-image: url(.//assets/FidelityLogo.png);
+    mask-size:contain;
+    mask-repeat: no-repeat;
+}
+
+.gradientAds {
+    height: auto;
+    width: 200px;
+    --bg-size: 400%;
+    --color-one: hsl(194, 100%, 69%);
+    --color-two: hsl(187, 48%, 54%);
+    background: linear-gradient(
+                    90deg,
+                    var(--color-one),
+                    var(--color-two),
+                    var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    animation: move-bg 8s infinite linear;
+    mask-image: url(.//assets/AmazonAds.png);
+    -webkit-mask-image: url(.//assets/AmazonAds.png);
+    mask-size:contain;
+    mask-repeat: no-repeat;
+}
+
+@media (max-width: 480px) {
+    .ProjectCard{
+        flex-shrink: 0;
+    width: 80vw;
+    height: 500px; /* 320px */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    align-content: center;
+    gap: 60px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: white;
+    box-shadow: 
+    0px 0.796841278193901px 2.3905238345817033px -0.625px rgba(0, 0, 0, 0.05), 
+    0px 2.413677098392273px 7.2410312951768185px -1.25px rgba(0, 0, 0, 0.05), 
+    0px 6.3802836426702925px 19.140850928010877px -1.875px rgba(0, 0, 0, 0.05), 
+    0px 20px 60px -2.5px rgba(0, 0, 0, 0.05);  
+    border-radius: 70px;
+        scroll-snap-align: center;
+    }
+
+    .carousel{
+        flex-shrink: 0;
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+        align-items: center;
+        max-width: 100%;
+        position: relative;
+        padding-left: 100px;
+        padding: 30px 30px 30px 30px;
+        align-content: center;
+        gap: 50px;
+        border-radius: 0px 0px 0px 0px;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+    }
+    
+    .expCardContent{
+        width: 100%;
+        height: 50%;
+        display: inline-block;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 0px;
+    }
+    .expCardContent h1{
+        font-size: larger;
+        margin: 0px auto 0px auto;
+        width: 85%; 
+    }
+    
+    .expCardContent p{
+        font-size: large;
+        width: 85%; 
+        margin: 5px auto 0px auto; 
+    }
+    
+    .imgContain  {
+        height: 10%;
+    }
+    .cardLogo{
+        max-height: 80px;
+        width: auto;
+    }
+
+    .gradientAWS {
+        --bg-size: 400%;
+        --color-one: hsl(15 90% 55%);
+        --color-two: hsl(40 95% 55%);
+        background: linear-gradient(
+                        90deg,
+                        var(--color-one),
+                        var(--color-two),
+                        var(--color-one)
+                    ) 0 0 / var(--bg-size) 100%;
+        animation: move-bg 8s infinite linear;
+        mask-image: url(.//assets/AWSlogo.png);
+        -webkit-mask-image: url(.//assets/AWSlogo.png);
+        mask-size:contain
+    }
+    
+    .gradientFidelity {
+        height: auto;
+        width: 250px;
+        --bg-size: 400%;
+        --color-one: hsl(119, 47%, 49%);
+        --color-two: hsl(100, 66%, 61%);
+        background: linear-gradient(
+                        90deg,
+                        var(--color-one),
+                        var(--color-two),
+                        var(--color-one)
+                    ) 0 0 / var(--bg-size) 100%;
+        animation: move-bg 8s infinite linear;
+        mask-image: url(.//assets/FidelityLogo.png);
+        -webkit-mask-image: url(.//assets/FidelityLogo.png);
+        mask-size:contain;
+        mask-repeat: no-repeat;
+    }
+    
+    .gradientAds {
+        height: auto;
+        width: 250px;
+        --bg-size: 400%;
+        --color-one: hsl(194, 100%, 69%);
+        --color-two: hsl(187, 48%, 54%);
+        background: linear-gradient(
+                        90deg,
+                        var(--color-one),
+                        var(--color-two),
+                        var(--color-one)
+                    ) 0 0 / var(--bg-size) 100%;
+        animation: move-bg 8s infinite linear;
+        mask-image: url(.//assets/AmazonAds.png);
+        -webkit-mask-image: url(.//assets/AmazonAds.png);
+        mask-size:contain;
+        mask-repeat: no-repeat;
+    }
+}
+

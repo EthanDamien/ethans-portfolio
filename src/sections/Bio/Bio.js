@@ -16,7 +16,7 @@ const Bio = () => {
                 Hi I'm Ethan Damien Chang
               </h1>
               <p>I'm a Software Engineer with a passion for work with systems at a global scale.</p>
-              <p>I'm an incoming Software Engineer for <mark className='gradientOrange'>Amazon Ads </mark>
+              <p>I'm an incoming Software Engineer for <mark className='gradientBlue hvr-shrink'><a href="https://advertising.amazon.com/lp/build-your-business-with-amazon-advertising?tag=googhydr-20&ref=pd_sl_37ga81juc3_e_ps_gg_b_us_en_d_core_e_644030686063&k_amazon%20ads&group_144796814053">Amazon Ads</a> </mark>
                  and recently graduated from Rutgers University with a Bachelor of Science in Computer Science. 
               </p>
               <p>I love <ReactTypingEffect

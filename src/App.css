@@ -13,6 +13,11 @@
   }
 }
 
+a {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}
+
 .sectionFrame {
   background-color: rgb(209, 227, 200);
   min-height: 100vh;
@@ -176,8 +181,8 @@ h2 {
 
 .gradientBlue {
   --bg-size: 400%;
-  --color-one: hsl(194, 100%, 69%);
-  --color-two: hsl(187, 48%, 54%);
+  --color-one: hsl(194, 74%, 60%);
+  --color-two: hsl(187, 58%, 55%);
   background: linear-gradient(
                 90deg,
                 var(--color-one),
@@ -192,8 +197,8 @@ h2 {
 
 .gradientBlueStatic {
   --bg-size: 400%;
-  --color-one: hsl(194, 100%, 69%);
-  --color-two: hsl(187, 48%, 54%);
+  --color-one: hsl(194, 74%, 60%);
+  --color-two: hsl(187, 58%, 55%);
   background: linear-gradient(
                 90deg,
                 var(--color-one),
@@ -222,3 +227,30 @@ h2 {
     background-position: var(--bg-size) 0;
   }
 } */
+
+
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.3.2
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+ * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
+ */
+
+ .hvr-shrink {
+  margin-top: -2px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
