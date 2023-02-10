@@ -205,8 +205,20 @@ h2 {
   background-clip: text;
 }
 
-@keyframes move-bg {
+.sectionHeader{
+  padding: 50px 50px 50px 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sectionHeader h1{
+  font-size: larger;
+  margin: 0px 0px 0px 0px;
+}
+
+/* @keyframes move-bg {
   to {
     background-position: var(--bg-size) 0;
   }
-}
+} */

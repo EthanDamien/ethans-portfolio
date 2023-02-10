@@ -6,6 +6,9 @@ const Bio = () => {
     return (
         <div className="Splash">
       <header className="sectionFrame BioSection">
+      <div className="sectionHeader">
+          <h1>Bio</h1>
+        </div>
         <div className='Card'>
           <div className='CardContent'>
             <img src='happyEthan.png' className='pfp'/>

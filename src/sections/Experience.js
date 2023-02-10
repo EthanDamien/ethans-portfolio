@@ -9,6 +9,9 @@ import adslogo from "../AmazonAdsEmpty.png";
 const Experience = () => {
     return (
       <header className="sectionFrame ExperienceSection">
+        <div className="sectionHeader">
+          <h1>Experiences</h1>
+        </div>
         <div className='carousel'>
           {expCard("ads")}
           {expCard("aws")}

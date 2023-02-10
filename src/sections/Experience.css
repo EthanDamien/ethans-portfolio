@@ -52,8 +52,8 @@
 
 .ExperienceCard{
     flex-shrink: 0;
-    width: 400px;
-    height: 480px; /* 320px */
+    width: 300px;
+    height: 380px; /* 320px */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -84,21 +84,23 @@
     gap: 0px;
 }
 .expCardContent h1{
+    font-size: large;
     margin: 0px auto 0px auto;
-    width: 85%; 
+    width: 80%; 
 }
 
 .expCardContent p{
-    width: 85%; 
+    font-size: medium;
+    width: 80%; 
     margin: 5px auto 0px auto; 
 }
 
 .imgContain  {
-    height: 15%;
+    height: 10%;
 }
 
 .cardLogo{
-    height: 100px;
+    height: 80px;
     width: auto;
 }
 
@@ -120,7 +122,7 @@
 
 .gradientFidelity {
     height: auto;
-    width: 300px;
+    width: 200px;
     --bg-size: 400%;
     --color-one: hsl(119, 47%, 49%);
     --color-two: hsl(100, 66%, 61%);
@@ -139,7 +141,7 @@
 
 .gradientAds {
     height: auto;
-    width: 300px;
+    width: 200px;
     --bg-size: 400%;
     --color-one: hsl(194, 100%, 69%);
     --color-two: hsl(187, 48%, 54%);

@@ -9,22 +9,27 @@ import {
   useSpring,
 } from "framer-motion";
 import Experience from './sections/Experience';
+import SectionHeader from './SectionHeader';
 
 
 function Section({ id })  {
   if (id == 1){
     return (
-      <Splash/>
+      <Splash />
     )
   }
   else if (id == 2){
     return (
+      <>
       <Bio/>
+      </>
     )
   }
   else if (id == 3){
     return(
+      <>
       <Experience/>
+      </>
     )
   }
 } 
@@ -47,7 +52,7 @@ function App() {
     <video autoPlay loop muted playsInline className='backgroundVideo'>
       <source src='https://ethanportfolioassets.s3.amazonaws.com/CarBackground.mp4'></source>
     </video>
-      {[1,2,3,4,5].map((section) =>
+      {[1,2,3,3,5].map((section) =>
         (
         <Section id = {section}/>
       ))}

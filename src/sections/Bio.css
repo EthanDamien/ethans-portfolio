@@ -111,6 +111,39 @@ p {
     text-align: left;
 }
 
+@media (max-width: 763px){
+    .CardContent{
+        flex-shrink: 0;
+        width: 100%;
+        height: min-content; /* 320px */
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px 0px 20px;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+        z-index: 1;
+        position: relative;
+        align-content: center;
+        gap: 60px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .pfp{
+        height: 150px;
+        width: auto;
+    }
+    h1{
+        width: 300px;
+        margin: 0px auto 0px auto;
+    }
+    p{
+        font-size: 15px;
+        width: 300px;
+        word-wrap: normal;
+    }
+}
+
 @media (max-width: 480px){
     .CardContent{
         flex-shrink: 0;
@@ -176,3 +209,4 @@ p {
         word-wrap: normal;
     }
 }
+
