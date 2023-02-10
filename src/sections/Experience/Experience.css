@@ -73,7 +73,7 @@
     border-radius: 50px;
 }
 
-.expCardContent{
+.ExperienceCard .expCardContent{
     width: 100%;
     height: 50%;
     display: inline-block;
@@ -82,28 +82,28 @@
     align-items: start;
     gap: 0px;
 }
-.expCardContent h1{
+.ExperienceCard .expCardContent h1{
     font-size: large;
     margin: 0px auto 0px auto;
     width: 80%; 
 }
 
-.expCardContent p{
+.ExperienceCard .expCardContent p{
     font-size: medium;
     width: 80%; 
     margin: 5px auto 0px auto; 
 }
 
-.imgContain  {
+.ExperienceCard .imgContain  {
     height: 10%;
 }
 
-.cardLogo{
+.ExperienceCard .cardLogo{
     height: 80px;
     width: auto;
 }
 
-.gradientAWS {
+.ExperienceCard .gradientAWS {
     --bg-size: 400%;
     --color-one: hsl(15 90% 55%);
     --color-two: hsl(40 95% 55%);
@@ -119,7 +119,7 @@
     mask-size:contain
 }
 
-.gradientFidelity {
+.ExperienceCard .gradientFidelity {
     height: auto;
     width: 200px;
     --bg-size: 400%;
@@ -138,7 +138,7 @@
     mask-repeat: no-repeat;
 }
 
-.gradientAds {
+.ExperienceCard .gradientAds {
     height: auto;
     width: 200px;
     --bg-size: 400%;
@@ -183,7 +183,7 @@
         scroll-snap-align: center;
     }
 
-    .carousel{
+    .ExperienceCard .carousel{
         flex-shrink: 0;
         display: flex;
         flex: auto;
@@ -201,7 +201,7 @@
         scroll-snap-type: x mandatory;
     }
     
-    .expCardContent{
+    .ExperienceCard .expCardContent{
         width: 100%;
         height: 50%;
         display: inline-block;
@@ -210,27 +210,27 @@
         align-items: start;
         gap: 0px;
     }
-    .expCardContent h1{
+    .ExperienceCard .expCardContent h1{
         font-size: larger;
         margin: 0px auto 0px auto;
         width: 85%; 
     }
     
-    .expCardContent p{
+    .ExperienceCard .expCardContent p{
         font-size: large;
         width: 85%; 
         margin: 5px auto 0px auto; 
     }
     
-    .imgContain  {
+    .ExperienceCard .imgContain  {
         height: 10%;
     }
-    .cardLogo{
+    .ExperienceCard .cardLogo{
         max-height: 80px;
         width: auto;
     }
 
-    .gradientAWS {
+    .ExperienceCard .gradientAWS {
         --bg-size: 400%;
         --color-one: hsl(15 90% 55%);
         --color-two: hsl(40 95% 55%);
@@ -246,7 +246,7 @@
         mask-size:contain
     }
     
-    .gradientFidelity {
+    .ExperienceCard .gradientFidelity {
         height: auto;
         width: 250px;
         --bg-size: 400%;
@@ -265,7 +265,7 @@
         mask-repeat: no-repeat;
     }
     
-    .gradientAds {
+    .ExperienceCard .gradientAds {
         height: auto;
         width: 250px;
         --bg-size: 400%;
