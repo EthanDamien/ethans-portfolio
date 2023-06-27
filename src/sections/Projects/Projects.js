@@ -1,7 +1,7 @@
 import './Projects.css'
-import ReactTypingEffect from 'react-typing-effect'
-import { motion } from "framer-motion";
 import omwlogo from ".//assets/omwlogo.png";
+import retrologo from ".//assets/retrotablecent.png";
+import glimpselogo from ".//assets/glimpse.png";
 
 const Project = () => {
     return (
@@ -42,7 +42,7 @@ function expCard(type) {
         return (
           <div className='ProjectCard'>
           <div className='imgContain'>
-          <img src={omwlogo} className="cardLogo" alt="logo" />
+          <img src={retrologo} className="cardLogo" alt="logo" />
           </div>
           <div className='expCardContent'>
               <h1>Retrotable</h1>
@@ -58,7 +58,7 @@ function expCard(type) {
         return (
           <div className='ProjectCard'>
           <div className='imgContain'>
-          <img src={omwlogo} className="cardLogo" alt="logo" />
+          <img src={glimpselogo} className="cardLogo" alt="logo" />
           </div>
           <div className='expCardContent'>
               <h1>Glimpse</h1>
@@ -70,6 +70,6 @@ function expCard(type) {
           </div>
           </div> 
           )
-      
+      default:
   }
 }

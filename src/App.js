@@ -4,6 +4,7 @@ import Splash from './sections/Splash/Splash';
 import Bio from './sections/Bio/Bio';
 import Experience from './sections/Experience/Experience';
 import Projects from './sections/Projects/Projects'
+import Contact from './sections/ContactMe/Contact';
 import { useRef } from "react";
 import {
   motion,
@@ -23,6 +24,9 @@ function Section({ id })  {
       return <Experience/>   
     case 4:
       return <Projects/>  
+    case 5:
+      return <Contact/>
+    default:
   }
 } 
 
